@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Carros from './componets/Atividades/02Carros';
 
 const Quadrado = styled.View`
   background-color: ${props => props.cor};
@@ -13,11 +14,6 @@ const Pagina = styled.View`
 
 export default function App() {
   return (
-    <Pagina>
-      <Quadrado cor='red'></Quadrado>
-      <Quadrado cor='green'></Quadrado>
-      <Quadrado cor='blue'></Quadrado>
-      <Quadrado cor='yellow'></Quadrado>
-    </Pagina>
+    <Carros />
   );
 }
