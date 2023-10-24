@@ -1,9 +1,9 @@
 import React from 'react'
-import CalculadoraIMC from './componets/Atividades/03CalculadoraIMC'
+import CalculadoraPesoIdeal from './componets/Atividades/04CalculadoraPesoIdeal'
 
 function App() {
   return (
-    <CalculadoraIMC />
+    <CalculadoraPesoIdeal />
   )
 }
 
