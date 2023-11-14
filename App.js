@@ -1,9 +1,8 @@
-import React from 'react'
-import CalculadoraPesoIdeal from './componets/Atividades/04CalculadoraPesoIdeal'
+import CalculadoraDeGorjeta from './componets/Atividades/05CalculadoraDeGorjeta'
 
 function App() {
   return (
-    <CalculadoraPesoIdeal />
+    <CalculadoraDeGorjeta />
   )
 }
 
