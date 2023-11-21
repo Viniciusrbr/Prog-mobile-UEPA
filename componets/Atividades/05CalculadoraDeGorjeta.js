@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Page = styled.SafeAreaView`
     flex: 1;
@@ -72,8 +72,14 @@ function CalculadoraDeGorjeta() {
     const calc = () => {
         let nBill = parseFloat(bill);
 
-        nBill ? setTip((pct / 100) * nBill) : alert("Digite o valor da conta");
+        if (nBill) {
+            setTip((pct / 100) * 100);
+        }
     }
+
+    useEffect(() => {
+        calc()
+    }, [pct])
 
     return (
         <Page>

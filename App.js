@@ -1,8 +1,8 @@
-import CalculadoraDeGorjeta from './componets/Atividades/05CalculadoraDeGorjeta'
+import AsyncApp from "./componets/AULA-05/AsyncApp"
 
 function App() {
   return (
-    <CalculadoraDeGorjeta />
+    <AsyncApp />
   )
 }
 
